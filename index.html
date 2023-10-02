@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <meta charset="utf-8">
 <head>
-    <title>Заголовок сайта</title>
+    <title class="title">Заголовок сайта</title>
 </head>
+<meta charset="utf-8">
 <header>
     <H1>B
     </H1>
@@ -12,16 +12,16 @@
         <a href="#" class="nav_button"><h2>HTML и CSS</h2></a>
         <a href="#" class="nav_button"><h2>Frontend</h2></a>
         <a href="#" class="nav_button"><h2>Backend</h2></a>
-        <div class="search">
-            <form>
+        <search role="search" class="search">
+            <form action="/search" method="get">
                 <input type="text" placeholder="Искать здесь...">
-                <button type="submit"></button>
+                <button type="submit">Искать</button>
             </form>
         </div>
     </nav>
 </header>
 <body class="body">
-    <p>FRONTEND - 12 МАЯ 2024</p>
+<div>FRONTEND - <time>12 МАЯ 2024</time></div>
 <h1>
     <pre>
         Теория цвета - Как цвет влияет на поведение
@@ -29,12 +29,12 @@
     </pre>
 </h1>
 <div>
-    <img src="image1.svg" class="avatar" alt="Аватарка">
-    <h2 class="nickname">Наталья Васильева</h2>
+    <img src="image1.svg" class="avatar" alt="изображение 50x50 px">
+    <span class="nickname">Наталья Васильева</span>
     <span class="small_text">Разработчик</span>
 </div>
 <div class="centre_img">
-    <img src="big_image.svg" alt="Большая картинка">
+    <img src="big_image.svg" alt="изображение 900x600 px">
 </div>
 <div>
     <p>
